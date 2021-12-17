@@ -1,0 +1,9 @@
+query Draft {
+  draft {
+    id
+    createdAt
+    title
+    content
+    published
+  }
+}

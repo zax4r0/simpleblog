@@ -1,0 +1,14 @@
+mutation AddPost($title: String!, $content: String!) {
+  AddPost(title: $title, content: $content) {
+    id
+    createdAt
+    title
+    content
+    published
+    author {
+      id
+      name
+      email
+    }
+  }
+}

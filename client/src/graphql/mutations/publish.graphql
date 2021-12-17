@@ -1,0 +1,5 @@
+mutation PublishPost($postId: String!) {
+  publishPost(postId: $postId) {
+    published
+  }
+}

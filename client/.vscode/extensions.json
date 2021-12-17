@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    "bradlc.vscode-tailwindcss",
+    "alefragnani.project-manager",
+    "csstools.postcss",
+    "oderwat.indent-rainbow",
+    "graphql.vscode-graphql",
+    "dsznajder.es7-react-js-snippets",
+    "esbenp.prettier-vscode",
+    "sndst00m.vscode-native-svg-preview",
+    "pkief.material-icon-theme",
+    "kisstkondoros.vscode-gutter-preview",
+    "mikestead.dotenv",
+    "coenraads.bracket-pair-colorizer-2"
+  ]
+}
