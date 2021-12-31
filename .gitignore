@@ -42,4 +42,4 @@ public/fall*
 public/sw.js
 public/workbox-*
 
-
+.directory

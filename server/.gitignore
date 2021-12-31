@@ -1,6 +1,0 @@
-node_modules/
-dist/
-src/generated/
-*.env
-prisma/migrations/
-prisma/dev.db

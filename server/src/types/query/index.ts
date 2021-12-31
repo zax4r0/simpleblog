@@ -1,6 +1,0 @@
-export * from './allUsersQuery'
-// export * from './feedQuery'
-export * from './meQuery'
-export * from './posts'
-export * from './postById'
-export * from './userById'
