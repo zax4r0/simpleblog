@@ -13,13 +13,13 @@ function Login() {
         fields: {
           posts(existingPosts = []) {
             // https://stackoverflow.com/questions/61277834/update-cache-after-a-mutation-property-names-does-not-exist-on-type-names
-            // check if it is called 'names' in the Cache tab of Apollo Client dev tools in google chrome
+            // check if it is called 'posts' in the Cache tab of Apollo Client dev tools in google chrome
             const newPostRef = cache.writeQuery({
-              //query: GET_NAMES,
-              query: PostsDocument, // assuming that your Query is called GetNames, and that in theory you would call it somewhere else like this: useGetNamesQuery()
+              //query: GET_POSTS,
+              query: PostsDocument, // assuming that your Query is called GetPosts, and that in theory you would call it somewhere else like this: useGetPostsQuery()
               data: Post,
             })
-            // return existingNames.concat(newNameRef) // if 'names' is a string, but I would think it's an array, then
+            // return existingPosts.concat(newPostsRef) // if 'posts' is a string, but I would think it's an array, then
             return [...existingPosts, newPostRef]
           },
         },
